@@ -1,0 +1,677 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+.main-header{
+    width: 100%;
+    /* position: fixed; */
+    background-color: ghostwhite;
+    height: 14vh;
+    top: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.container{
+   
+    background: linear-gradient(
+       rgba(3, 3, 252, 0.5),
+       rgba(8, 8, 240, 0.5)
+    ),url('img/officetable.jpg');
+    color: white;
+    background-size: cover;
+    display: flex;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.head span {
+
+    margin-left: 55%;
+     
+}
+.head span a{
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+}
+ul li{
+    padding-left: 2%;
+    color: black;
+    display: flex;
+    display: inline;
+   
+    
+}
+ul li a{
+    color: black;
+    text-decoration: none  
+}
+.line{
+    display: flex;
+    justify-content: flex-end;
+}
+#str{
+    width: 50%;
+    text-align: left;
+}
+ ul{
+    margin-right: 10%;
+ }
+
+ .text{
+    padding-left: 6%;
+    padding-top: 15%;
+    width: 60%;
+ }
+  h1{
+     font-size: 65px;
+     font-weight: 20px;
+ }
+ .text b{
+     font-size: large;
+     
+ }
+ .btn{
+     padding-left: 15%;
+ }
+ #our{
+     padding-top: 15px;
+     background-color: rgb(253, 253, 253);
+     text-align: center;
+     padding-bottom: 15px;
+     background-repeat: no-repeat;
+     border: none;
+ }
+ .btn button{
+    padding-top: 15px;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    width: 15%;
+    border-radius: 4px;
+    background-color: transparent;
+ }
+ .hire{
+    background-color: transparent;
+    border: 1px solid;
+ }
+ img{
+     margin: 0;
+     height: 17%;
+     color: white;
+     background-color: blue;
+     image-resolution: 48px;
+ }
+
+ .container-1 form select{
+    padding: 20px 65px; 
+ }
+ .container-1 div{
+     
+     top: 45px;
+
+ }
+ .container-1 {
+     color: rgb(100, 100, 100);
+    border-radius: 1px;
+    background-color: #f3f2f2;
+    border: none;
+    padding-bottom: 20px;
+    top: 44px;
+    position: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container-1 form{
+    padding-left: 5%;
+  }
+  .container-1 h2{
+      color: black;
+      font-size: 30px;
+      padding-left: 5%;
+  }
+
+
+ input[type=text], select {
+    padding: 20px 60px;
+    margin: 8px 0;
+    border: none;
+    display: inline-block;
+    border: 1px solid4#ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+
+    background-color: rgb(7, 152, 201);
+    color: white;
+    padding: 20px 100px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: blue;
+    border-radius: 4px;
+    padding: 20px 100px;
+  }
+  
+  
+  .offer{
+      text-align: center;
+      justify-content: center;
+      margin: auto;
+      width: 60%;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .box{
+      width: 100%;
+      display: flex;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+     
+      
+  }
+  .box-1{
+      width: 25%;
+      
+  }
+  .box-1 button{
+      text-align: center;
+      background-color: gray;
+      cursor: pointer;
+      width: 29%;
+      height: 5vh;
+  }
+  .pics{
+    background-image: url('img/officetable.jpg');
+    width: 25%;
+    height: 60vh; 
+    background-size: cover;
+    margin-left: 10%;
+    
+  }
+
+  .wrap{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .about{
+      width: 40%;
+      margin-right: 10%;
+      text-align: center;
+  }
+  .pics-2{
+    background: linear-gradient(
+        rgba(3, 3, 252, 0.5),
+        rgba(8, 8, 240, 0.5)
+     ),url('img/officetable.jpg');
+      color: white;
+      height: 70vh;
+  }
+   .colur .num{
+       background-color: white;
+       width: 30%;
+       height: 30vh;
+       flex: 1;
+       margin:auto;
+      
+   }
+  .colur {
+      position: relative;
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      height: 30.5vh;
+      margin: auto;
+      top: 37%;
+      width: 90%;
+      display: flex;
+  }
+  .num{
+    /* flex-wrap: wrap; */
+      width: 40%;
+      border: 1px solid;
+      text-align: center;
+      border-color: rgb(238, 235, 235);
+  }
+  .num h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(68, 68, 221);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .num p{
+      font: bolder;
+      font-size: 18px;
+      font-weight: 80px;
+      text-align: center;
+      color: rgb(10, 10, 10);
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .pics-2 h2{
+      text-align: center;
+      position: relative;
+      top: 100px;
+      font-size: 40px;
+      font-weight: 80px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .pics-2 h4{
+      text-align: center;
+      position: relative;
+      top: 100px;
+      font-size: 20px;
+      font-weight: 80px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .pics-3{
+    background-image: url('img/officetable.jpg');
+    width: 25%;
+    height: 60vh; 
+    background-size: cover;
+    float: right;
+    margin-top: -30%;
+  }
+
+  .box-2{
+      display: flex;
+      margin-top: -9px;
+      padding-left: 32px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(56, 59, 63);
+  }
+
+  .beneficial {
+      color: rgb(56, 59, 63);
+      display: flex;
+      padding-left: 32px;
+      font-family: Arial, Helvetica, sans-serif;  
+  }
+  .why{
+      color: rgb(56, 59, 63);
+      margin-top: 10%;
+      padding-left: 65px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .finan{
+      padding-left: 30px;
+  }
+  .container-3{
+      background-color: rgb(238, 231, 231);
+      width: 100%;
+      height: 70vh;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .container-4{
+   
+    width: 90%;
+    /* height: 50vh; */
+    margin: auto;
+    /* margin-top: 10%; */
+   
+    display: flex;
+    
+  }
+
+.test p{
+    text-align: center;
+    top: 100px;
+    font-size: 40px;
+    font-weight: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.test h2{
+   
+    text-align: center;
+    top: 100px;
+    font-size: 20px;
+    font-weight: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.now img{
+    border-radius: 30px;
+    margin-left: 33px;
+    margin-top: 33px;
+    
+}
+.now{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    border: 1px solid rgb(221, 215, 215);
+    /* border-left: inherit; */
+  
+   
+    
+}
+
+.now p{
+    margin-right: 20%;
+    margin-top: 30%;
+    font: bolder;
+    font-size: 18px;
+    font-weight: 80px;
+    text-align: start;
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .img{
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 30%;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-right: auto;    
+} */
+
+.rad{
+    width: 4%;
+    margin: auto;
+    color: black;
+    /* background-color: lightgreen; */
+}
+.rotate{
+   justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    animation-name: example;
+    animation-duration: 4s;
+ 
+}
+.price{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.tab{
+    width: 51.5%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+   
+}
+.tab-1 {
+    color: rgb(99, 98, 98);
+    border: 1px solid rgb(218, 218, 218);
+    background-color: rgb(241, 244, 245);
+    width: 51.5%;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab-2{
+    color: rgb(99, 98, 98);
+    border: 2px solid rgb(38, 38, 248);
+    background-color: rgb(253, 251, 251);
+    width: 51.5%;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bolder;
+}
+.tab-1 table  {
+  
+    height: 90vh;
+    width: 100%;
+}
+.tab-1 table th{
+    width: 100%;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 4rem;
+}
+.tab-1 table td{
+    border: 1px solid rgb(230, 225, 225);
+    width: 100%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    font-weight: 32px;
+    font-weight: 32px;
+}
+.tab-2 table  {
+  
+    height: 90vh;
+    width: 100%;
+}
+.tab-2 table th{
+    width: 100%;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 4rem;
+}
+.tab-2 table td{
+    border: 1px solid rgb(218, 216, 216);
+    width: 100%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contact{
+    margin: auto;
+    width: 51.5%;
+   
+   
+}
+.contact input{
+    font: bold;
+    font-size: 15px;
+    font-weight: 25px;
+    width: 100%;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-5{
+    background: linear-gradient(
+        rgba(5, 5, 5, 0.5),
+        rgba(8, 8, 8, 0.5)
+     ),url('img/officetable.jpg');
+    color: white;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center; 
+    background-size: cover;
+}
+.container-5 div{
+    width: 45%;
+}
+.experts{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.experts p{
+    color: rgb(226, 224, 220);
+    font: bold;
+    font-weight: 2%;
+}
+.hire-us input[value=Hireustoday]{
+    width: 10%;
+    align-content: center;
+}
+.hire-us{
+    margin-right: 40px;
+    margin-top: 10%;
+    height: 10vh;
+    width: 10%;
+    text-align: end;
+   
+}
+
+.container-6{
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    height: 100px;
+    /* background-color: rgb(216, 191, 216); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-2 div{
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: -10%;
+    margin-left: 90px;
+}
+/* .table-2 {
+    justify-content: end;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 90px;
+} */
+.table-2 tr td{
+    justify-content: space-between;
+    color: rgb(24, 23, 24);
+}
+.table-2 tr th{
+    justify-content: space-between;
+    text-align: start;
+    color: rgb(24, 23, 24);
+}
+.account{
+    width: 30%;
+    padding-left: 3%;
+    margin-top: -20px;
+}
+@media screen and (max-width:700px){
+    .container{
+        text-align: center;
+        width:100%;
+        display: inline;
+        margin: auto;
+        color: white;
+        height: 80vh;
+        font-family: Arial, Helvetica, sans-serif;
+        /* justify-content: center; */
+    }
+    .btn{
+        width: 10%;
+        margin: auto;
+       
+    }
+    .text{
+        background-size: cover;
+        background: linear-gradient(
+            rgba(5, 5, 5, 0.5),
+            rgba(8, 8, 8, 0.5)
+         ),url('img/officetable.jpg');
+        width: 90%;
+        margin: auto;;
+    }
+    .text h1{
+        font-size: 40px;
+        width: 90%;
+        margin: auto;
+    }
+    .container-1 p{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .head {
+       
+        display: block;
+        /* position: fixed; */
+        background-color: ghostwhite;
+        top: -1px;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+    .line{
+        display: inline-block
+    }  
+    .box{
+        display: inline;
+        width: 100%;
+    }
+    .box-1{
+        width: 60%;
+        margin: auto;
+    }
+    .wrap{
+        display: inline;
+        width: 100%;
+    }
+    .wrap,.pics,.about{
+        width: 60%;
+        margin: auto;
+    }
+     .colur .num{
+        width: 60%;
+        height: 15vh;
+        position: relative;
+        
+     }
+    .colur {
+      
+        background-color: white;
+        display: inline;
+        position: relative;
+        /* width: 90%; */
+        margin-top: 25%;
+        
+    }
+    .num p{
+        font-size: 12px;
+    }
+    .num h1{
+        font-size: 30px;
+    }
+    .line img{
+        height: 4vh;
+    }
+    .beneficial{
+    display: inline;
+    }
+    .container-2{
+        flex: 2;
+        width:60%;
+        margin: auto;
+    }
+    .box-2{
+        display: inline;
+    }
+    .pics-3{
+        background-image: url('img/officetable.jpg');
+        width: 45%;
+        height: 10vh; 
+        /* background-size: cover; */
+        /* float: inline-start; */
+      margin-top: 1px;
+      }
+
+      .container-6{
+          display: block;
+      }
+
+      .container-4{
+          display: inline;
+
+      }
+}
+
